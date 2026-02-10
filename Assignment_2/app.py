@@ -20,3 +20,5 @@ def read_config():
 if __name__ == "__main__":
     user = input("Enter username: ")
     print(get_user(user))
+
+# trigger super-linter
