@@ -12,7 +12,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Bandit
-        uses: py-actions/bandit@v1
+        uses: pycqa/bandit-action@v1
         with:
-          path: .
-          exit_zero: true
+          targets: .
